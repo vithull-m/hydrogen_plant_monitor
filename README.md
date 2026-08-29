@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Green Hydrogen Plant Monitoring and Management System
 
 A Java Swing desktop application that simulates monitoring and management
@@ -150,3 +151,7 @@ Ideas if you want to go further for extra credit:
 - No connection pooling — each DAO call opens and closes its own
   connection, which is fine for a single-user desktop app at this scale
   but wouldn't scale to many concurrent users.
+=======
+# hydrogen_plant_monitor
+A Java Swing desktop application (MVC + JDBC/MySQL) that simulates monitoring and managing a renewable-energy-powered green hydrogen production plant — tracking solar/wind generation, hydrogen production, storage tanks, and equipment maintenance.
+>>>>>>> d4a00984cd08b70ee3a71c341ce14737e7e8d403
