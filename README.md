@@ -1,3 +1,12 @@
+# Executable commands
+mvn clean package
+java -jar target\hydrogen-plant-monitor.jar
+Start-Service MySQL80
+& 'C:\Program Files\MySQL\MySQL Server 8.0\bin\mysql.exe' -u root -p < database\schema.sql
+
+Username: admin
+Password: admin123
+
 <<<<<<< HEAD
 # Green Hydrogen Plant Monitoring and Management System
 
